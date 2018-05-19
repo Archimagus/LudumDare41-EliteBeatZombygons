@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37b98de83aa5a54dbb14b1910ae45af, type: 3}
+  m_Name: 100BPM_song_00
+  m_EditorClassIdentifier: 
+  MusicClip: {fileID: 8300000, guid: 373638d1e471b4346bbf26252d724b9c, type: 3}
+  BPM: 100
+  IntroBeats: 4
+  OutroBeats: 0
+  _beatOffset: 0
+  _beatInputThreshold: 0.12
+  Loop: 1
+  LevelPrefab: {fileID: 1368651773149952, guid: 823b55a337a544f439e9b8f608d00c20,
+    type: 2}
+  Waves: []
+  RatingThreshold:
+    thresholds:
+    - 1000
+    - 4000
+    - 8000
+  _beatTimes:
+  - 0
+  - 0.6
+  - 1.2
+  - 1.7999999999999998
+  - 2.4
+  - 3
+  - 3.6
+  - 4.2
+  - 4.8
+  - 5.3999999999999995
+  - 5.999999999999999
+  - 6.599999999999999
+  - 7.199999999999998
+  - 7.799999999999998
+  - 8.399999999999999
+  - 8.999999999999998
+  - 9.599999999999998
+  - 10.199999999999998
+  - 10.799999999999997
+  - 11.399999999999997
+  - 11.999999999999996
+  - 12.599999999999996
+  - 13.199999999999996
+  - 13.799999999999995
+  - 14.399999999999995
+  - 14.999999999999995
+  - 15.599999999999994
+  - 16.199999999999996
+  - 16.799999999999997
+  - 17.4
+  - 18
+  - 18.6
+  _length: 19.2
+  _beatTime: 0.6
+  _lastBeatIndex: 2147483647

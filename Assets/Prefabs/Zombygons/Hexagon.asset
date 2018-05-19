@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9cdfcc17241874998a7c73cd339dbf, type: 3}
+  m_Name: Hexagon
+  m_EditorClassIdentifier: 
+  _zombygonType: 3
+  _zombygonSprite: {fileID: 21300000, guid: 5d1f3b8f18c55204f8e726045b203e6d, type: 3}
+  _sides: 6
+  _movementRate: 4
+  _chanceToMove: 0.75
+  _health: 100
+  _damage: 100
+  _score: 234
+  _chanceToDropLoot: 0.4

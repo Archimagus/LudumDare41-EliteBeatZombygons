@@ -1,0 +1,951 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37b98de83aa5a54dbb14b1910ae45af, type: 3}
+  m_Name: 135BPM_song_02
+  m_EditorClassIdentifier: 
+  MusicClip: {fileID: 8300000, guid: 7897d7300defa1e438294960c8df116b, type: 3}
+  BPM: 135
+  IntroBeats: 8
+  OutroBeats: 1
+  _beatOffset: 0
+  _beatInputThreshold: 0.12
+  Loop: 0
+  LevelPrefab: {fileID: 1368651773149952, guid: 09ed22e9d8d7b9540a5f160541333028,
+    type: 2}
+  Waves:
+  - SpawnTime: 0
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    SpawnLocations:
+    - Northwest Mid
+    - East
+    - Southwest Mid
+    - Southeast Mid
+    - West
+  - SpawnTime: 10.875
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    SpawnLocations:
+    - Middle
+    - North
+    - South
+    - East
+    - West
+    - Middle
+  - SpawnTime: 21.75
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northwest
+    - Northeast
+    - Southwest
+    - Southeast
+    - West
+  - SpawnTime: 32.625
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    SpawnLocations:
+    - Northwest
+    - Northwest Mid
+    - West
+    - Southwest Mid
+    - Southwest
+    - East
+  - SpawnTime: 43.5
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    SpawnLocations:
+    - Northeast
+    - Northeast Mid
+    - East
+    - Southeast Mid
+    - Southeast
+    - Middle
+  - SpawnTime: 54.375
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    SpawnLocations:
+    - Northwest
+    - Northwest Mid
+    - Middle
+    - Northeast Mid
+    - Northeast
+    - West
+  - SpawnTime: 66.25
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Southwest
+    - Southwest Mid
+    - Middle
+    - Southeast Mid
+    - Southeast
+    - North
+  - SpawnTime: 76.125
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - East
+  - SpawnTime: 87
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - West
+  - SpawnTime: 97.875
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - North
+  - SpawnTime: 108.75
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - South
+  - SpawnTime: 119.625
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - West
+  - SpawnTime: 130.5
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - East
+    - Northwest Mid
+    - Northwest Mid
+  - SpawnTime: 141.375
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - North
+  - SpawnTime: 152.25
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - Southwest Mid
+    - Northwest Mid
+    - East
+  - SpawnTime: 163.125
+    Enemies:
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 14892d3aa3ae53649a50ea13391ffd25, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 6cf75bc0cdf5e2741902dc50ba2e4d41, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 0ee5e25e4d71c5540925ae4c4705bc4d, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    - {fileID: 11400000, guid: 16cb97caf52102e4784f38fc59e34478, type: 2}
+    SpawnLocations:
+    - Middle
+    - Northeast Mid
+    - Southeast Mid
+    - North
+    - Northwest Mid
+    - Northwest Mid
+  RatingThreshold:
+    thresholds:
+    - 44800
+    - 90400
+    - 136000
+  _beatTimes:
+  - 0
+  - 0.4444444444444444
+  - 0.8888888888888888
+  - 1.3333333333333333
+  - 1.7777777777777777
+  - 2.2222222222222223
+  - 2.666666666666667
+  - 3.1111111111111116
+  - 3.5555555555555562
+  - 4.000000000000001
+  - 4.4444444444444455
+  - 4.88888888888889
+  - 5.333333333333335
+  - 5.7777777777777795
+  - 6.222222222222224
+  - 6.666666666666669
+  - 7.111111111111113
+  - 7.555555555555558
+  - 8.000000000000002
+  - 8.444444444444446
+  - 8.888888888888891
+  - 9.333333333333336
+  - 9.77777777777778
+  - 10.222222222222225
+  - 10.66666666666667
+  - 11.111111111111114
+  - 11.555555555555559
+  - 12.000000000000004
+  - 12.444444444444448
+  - 12.888888888888893
+  - 13.333333333333337
+  - 13.777777777777782
+  - 14.222222222222227
+  - 14.666666666666671
+  - 15.111111111111116
+  - 15.55555555555556
+  - 16.000000000000004
+  - 16.444444444444446
+  - 16.88888888888889
+  - 17.333333333333332
+  - 17.777777777777775
+  - 18.222222222222218
+  - 18.66666666666666
+  - 19.111111111111104
+  - 19.555555555555546
+  - 19.99999999999999
+  - 20.444444444444432
+  - 20.888888888888875
+  - 21.333333333333318
+  - 21.77777777777776
+  - 22.222222222222204
+  - 22.666666666666647
+  - 23.11111111111109
+  - 23.555555555555532
+  - 23.999999999999975
+  - 24.444444444444418
+  - 24.88888888888886
+  - 25.333333333333304
+  - 25.777777777777747
+  - 26.22222222222219
+  - 26.666666666666632
+  - 27.111111111111075
+  - 27.555555555555518
+  - 27.99999999999996
+  - 28.444444444444404
+  - 28.888888888888847
+  - 29.33333333333329
+  - 29.777777777777732
+  - 30.222222222222175
+  - 30.666666666666618
+  - 31.11111111111106
+  - 31.555555555555504
+  - 31.999999999999947
+  - 32.44444444444439
+  - 32.888888888888836
+  - 33.33333333333328
+  - 33.77777777777772
+  - 34.222222222222165
+  - 34.66666666666661
+  - 35.11111111111105
+  - 35.55555555555549
+  - 35.999999999999936
+  - 36.44444444444438
+  - 36.88888888888882
+  - 37.333333333333265
+  - 37.77777777777771
+  - 38.22222222222215
+  - 38.66666666666659
+  - 39.111111111111036
+  - 39.55555555555548
+  - 39.99999999999992
+  - 40.444444444444365
+  - 40.88888888888881
+  - 41.33333333333325
+  - 41.77777777777769
+  - 42.222222222222136
+  - 42.66666666666658
+  - 43.11111111111102
+  - 43.555555555555465
+  - 43.99999999999991
+  - 44.44444444444435
+  - 44.88888888888879
+  - 45.333333333333236
+  - 45.77777777777768
+  - 46.22222222222212
+  - 46.666666666666565
+  - 47.11111111111101
+  - 47.55555555555545
+  - 47.99999999999989
+  - 48.444444444444336
+  - 48.88888888888878
+  - 49.33333333333322
+  - 49.777777777777665
+  - 50.22222222222211
+  - 50.66666666666655
+  - 51.11111111111099
+  - 51.555555555555436
+  - 51.99999999999988
+  - 52.44444444444432
+  - 52.888888888888765
+  - 53.33333333333321
+  - 53.77777777777765
+  - 54.22222222222209
+  - 54.666666666666536
+  - 55.11111111111098
+  - 55.55555555555542
+  - 55.999999999999865
+  - 56.44444444444431
+  - 56.88888888888875
+  - 57.333333333333194
+  - 57.77777777777764
+  - 58.22222222222208
+  - 58.66666666666652
+  - 59.111111111110965
+  - 59.55555555555541
+  - 59.99999999999985
+  - 60.444444444444294
+  - 60.88888888888874
+  - 61.33333333333318
+  - 61.77777777777762
+  - 62.222222222222065
+  - 62.66666666666651
+  - 63.11111111111095
+  - 63.555555555555394
+  - 63.99999999999984
+  - 64.44444444444429
+  - 64.88888888888873
+  - 65.33333333333317
+  - 65.77777777777762
+  - 66.22222222222206
+  - 66.6666666666665
+  - 67.11111111111094
+  - 67.55555555555539
+  - 67.99999999999983
+  - 68.44444444444427
+  - 68.88888888888872
+  - 69.33333333333316
+  - 69.7777777777776
+  - 70.22222222222204
+  - 70.66666666666649
+  - 71.11111111111093
+  - 71.55555555555537
+  - 71.99999999999982
+  - 72.44444444444426
+  - 72.8888888888887
+  - 73.33333333333314
+  - 73.77777777777759
+  - 74.22222222222203
+  - 74.66666666666647
+  - 75.11111111111092
+  - 75.55555555555536
+  - 75.9999999999998
+  - 76.44444444444424
+  - 76.88888888888869
+  - 77.33333333333313
+  - 77.77777777777757
+  - 78.22222222222202
+  - 78.66666666666646
+  - 79.1111111111109
+  - 79.55555555555534
+  - 79.99999999999979
+  - 80.44444444444423
+  - 80.88888888888867
+  - 81.33333333333312
+  - 81.77777777777756
+  - 82.222222222222
+  - 82.66666666666644
+  - 83.11111111111089
+  - 83.55555555555533
+  - 83.99999999999977
+  - 84.44444444444422
+  - 84.88888888888866
+  - 85.3333333333331
+  - 85.77777777777754
+  - 86.22222222222199
+  - 86.66666666666643
+  - 87.11111111111087
+  - 87.55555555555532
+  - 87.99999999999976
+  - 88.4444444444442
+  - 88.88888888888864
+  - 89.33333333333309
+  - 89.77777777777753
+  - 90.22222222222197
+  - 90.66666666666642
+  - 91.11111111111086
+  - 91.5555555555553
+  - 91.99999999999974
+  - 92.44444444444419
+  - 92.88888888888863
+  - 93.33333333333307
+  - 93.77777777777752
+  - 94.22222222222196
+  - 94.6666666666664
+  - 95.11111111111084
+  - 95.55555555555529
+  - 95.99999999999973
+  - 96.44444444444417
+  - 96.88888888888862
+  - 97.33333333333306
+  - 97.7777777777775
+  - 98.22222222222194
+  - 98.66666666666639
+  - 99.11111111111083
+  - 99.55555555555527
+  - 99.99999999999972
+  - 100.44444444444416
+  - 100.8888888888886
+  - 101.33333333333304
+  - 101.77777777777749
+  - 102.22222222222193
+  - 102.66666666666637
+  - 103.11111111111082
+  - 103.55555555555526
+  - 103.9999999999997
+  - 104.44444444444414
+  - 104.88888888888859
+  - 105.33333333333303
+  - 105.77777777777747
+  - 106.22222222222192
+  - 106.66666666666636
+  - 107.1111111111108
+  - 107.55555555555524
+  - 107.99999999999969
+  - 108.44444444444413
+  - 108.88888888888857
+  - 109.33333333333302
+  - 109.77777777777746
+  - 110.2222222222219
+  - 110.66666666666634
+  - 111.11111111111079
+  - 111.55555555555523
+  - 111.99999999999967
+  - 112.44444444444412
+  - 112.88888888888856
+  - 113.333333333333
+  - 113.77777777777744
+  - 114.22222222222189
+  - 114.66666666666633
+  - 115.11111111111077
+  - 115.55555555555522
+  - 115.99999999999966
+  - 116.4444444444441
+  - 116.88888888888854
+  - 117.33333333333299
+  - 117.77777777777743
+  - 118.22222222222187
+  - 118.66666666666632
+  - 119.11111111111076
+  - 119.5555555555552
+  - 119.99999999999964
+  - 120.44444444444409
+  - 120.88888888888853
+  - 121.33333333333297
+  - 121.77777777777742
+  - 122.22222222222186
+  - 122.6666666666663
+  - 123.11111111111074
+  - 123.55555555555519
+  - 123.99999999999963
+  - 124.44444444444407
+  - 124.88888888888852
+  - 125.33333333333296
+  - 125.7777777777774
+  - 126.22222222222184
+  - 126.66666666666629
+  - 127.11111111111073
+  - 127.55555555555517
+  - 127.99999999999962
+  - 128.44444444444406
+  - 128.88888888888852
+  - 129.33333333333297
+  - 129.77777777777743
+  - 130.2222222222219
+  - 130.66666666666634
+  - 131.1111111111108
+  - 131.55555555555526
+  - 131.99999999999972
+  - 132.44444444444417
+  - 132.88888888888863
+  - 133.3333333333331
+  - 133.77777777777754
+  - 134.222222222222
+  - 134.66666666666646
+  - 135.11111111111092
+  - 135.55555555555537
+  - 135.99999999999983
+  - 136.4444444444443
+  - 136.88888888888874
+  - 137.3333333333332
+  - 137.77777777777766
+  - 138.22222222222211
+  - 138.66666666666657
+  - 139.11111111111103
+  - 139.5555555555555
+  - 139.99999999999994
+  - 140.4444444444444
+  - 140.88888888888886
+  - 141.33333333333331
+  - 141.77777777777777
+  - 142.22222222222223
+  - 142.66666666666669
+  - 143.11111111111114
+  - 143.5555555555556
+  - 144.00000000000006
+  - 144.4444444444445
+  - 144.88888888888897
+  - 145.33333333333343
+  - 145.77777777777789
+  - 146.22222222222234
+  - 146.6666666666668
+  - 147.11111111111126
+  - 147.5555555555557
+  - 148.00000000000017
+  - 148.44444444444463
+  - 148.88888888888908
+  - 149.33333333333354
+  - 149.777777777778
+  - 150.22222222222246
+  - 150.6666666666669
+  - 151.11111111111137
+  - 151.55555555555583
+  - 152.00000000000028
+  - 152.44444444444474
+  - 152.8888888888892
+  - 153.33333333333366
+  - 153.7777777777781
+  - 154.22222222222257
+  - 154.66666666666703
+  - 155.11111111111148
+  - 155.55555555555594
+  - 156.0000000000004
+  - 156.44444444444485
+  - 156.8888888888893
+  - 157.33333333333377
+  - 157.77777777777823
+  - 158.22222222222268
+  - 158.66666666666714
+  - 159.1111111111116
+  - 159.55555555555605
+  - 160.0000000000005
+  - 160.44444444444497
+  - 160.88888888888943
+  - 161.33333333333388
+  - 161.77777777777834
+  - 162.2222222222228
+  - 162.66666666666725
+  - 163.1111111111117
+  - 163.55555555555617
+  - 164.00000000000063
+  - 164.44444444444508
+  - 164.88888888888954
+  - 165.333333333334
+  - 165.77777777777845
+  - 166.2222222222229
+  - 166.66666666666737
+  - 167.11111111111182
+  - 167.55555555555628
+  - 168.00000000000074
+  - 168.4444444444452
+  - 168.88888888888965
+  - 169.3333333333341
+  - 169.77777777777857
+  - 170.22222222222302
+  - 170.66666666666748
+  - 171.11111111111194
+  - 171.5555555555564
+  - 172.00000000000085
+  - 172.4444444444453
+  - 172.88888888888977
+  - 173.33333333333422
+  - 173.77777777777868
+  _length: 174.22935416666667
+  _beatTime: 0.4444444444444444
+  _lastBeatIndex: 391
